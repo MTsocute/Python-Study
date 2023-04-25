@@ -22,7 +22,7 @@ def quick_sort(data, reverse=False):
         return quick_sort(left) + [pivot] + quick_sort(right)
 
 
-# 用户界面
+# 用户界面：引导用户完成对应操作的字符界面
 def Str_UI():
     print("请选择您需要的操作：")
     print("1. 统计数据的最大值、最小值、平均值")
@@ -35,7 +35,7 @@ def Str_UI():
     print("-" * 40)
 
 
-# 数据分析主体部分
+# 数据分析主体部分，大部分对数据操作的内容都在这里完成
 def data_analysis(Data_Fin):
     while True:
         Str_UI()  # 用户操作提示界面
@@ -96,7 +96,7 @@ def data_analysis(Data_Fin):
                 print('该内容可能不存在与列表当中')
             print("-" * 40)
 
-        # 实现对表哥内容排序
+        # 实现对表格中的元素排序s
         elif choice == "5":
             print("-" * 40)
             print("排序前：", Data_Fin)  # 显示未排序前的序列
