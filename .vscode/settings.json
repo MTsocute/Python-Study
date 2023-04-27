@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "./Chapter9/类的分块/一个文件下多类",
+        "./Chapter9/类的分块/多类分开各自为一个文件"
+    ]
+}
