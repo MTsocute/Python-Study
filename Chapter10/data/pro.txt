@@ -1,0 +1,4 @@
+I love Python
+I enjoy Python
+I love C
+I enjoy C
