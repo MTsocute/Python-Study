@@ -32,6 +32,11 @@ class Ship:
     def blitme(self):
         """ 在指定位置绘制飞船 """
         self.screen.blit(self.image, self.rect)
+    def center_ship(self):
+        """ 把飞船放到屏幕底部的中间 """
+        self.centerx = self.screen_rect.centerx
+        self.centery = self.screen_rect.bottom  # 获取屏幕底部位置。传给飞船位置
+
 
     def update(self):
         """ 根据飞船的状态来判断如何移动，注意边界问题 """
